@@ -1,11 +1,13 @@
 nav {
     background-color: transparent;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     height: 3.5rem;
-    color: #fff;
+    color: rgb(4, 1, 1);
     position: fixed;
     top: 0;
     width: 100%;
-    text-align: center;
-    z-index: 3;
+    z-index: 2;
+}
+.homescreen{
+    background-color: black;
+    color: white;
 }

@@ -1,0 +1,42 @@
+.active {
+    visibility: visible;
+    transition: all 0.5s;
+    z-index: 3;
+}
+
+.hidden {
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateY(-100%);
+}
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-avatar,
+.nav-logo{
+    height: 2rem;
+    padding: 1rem 1rem;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.nav-button{
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    z-index: 3;
+    cursor: pointer;
+    background-color: rgb(17, 119, 121);
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    border: none;
+}
+
+/* .nav-menu{
+    display: flex;
+} */

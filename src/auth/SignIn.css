@@ -1,0 +1,83 @@
+.signin{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.signin-container{
+    background-color: black;
+    color: white;
+    width: 30%;
+    padding: 4rem 1rem;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.signin-container .form{
+    display: flex;
+    flex-direction: column;
+    margin: 2rem;
+}
+
+.signin-container .form input{
+    margin: 0.5rem 0rem;
+    padding: 0.5rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.signin-container .form button{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.signin h1{
+    /* position: fixed; */
+    padding-left: 2rem;
+    font-weight: bolder;
+}
+
+.signup-link{
+    display: flex;
+    margin-left: 2rem;
+}
+.signup-link p{
+    color: rgba(255, 255, 255, 0.488);
+}
+.signup-link span{
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 1rem;
+}
+
+.default-login{
+    width: 100%;
+}
+
+.default-button{
+    width: 85%;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 991px) {
+    .signin-container{
+        width: 70%;
+    }
+}

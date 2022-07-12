@@ -1,0 +1,59 @@
+.card {
+    transition: 0.5s;
+}
+
+.card:hover {
+    z-index: 2;
+    transform: scale(1.08);
+}
+
+.poster {
+    position: relative;
+    height: 8rem;
+    width: 15rem;
+    z-index: 1;
+    transform: translateY(50px);
+    transition: 0.5s;
+}
+
+.card:hover .poster {
+    transform: translateY(0);
+    transition-delay:0.8s;
+}
+
+.large-poster {
+    height: 12rem;
+    width: 9rem;
+}
+
+.card-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0.3rem;
+    color: rgba(255, 255, 255, 0.388);
+}
+
+
+.option-icon:hover{
+    cursor: pointer;
+    color: white;
+    transform: scale(1.02);
+}
+
+.card-overview {
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+}
+
+.card-description {
+    transition: 0.5s;
+    transform: translateY(-53px);
+    max-width: 15rem;
+}
+
+.card:hover .card-description {
+    transition-delay: 0.8s;
+    transform: translateY(0);
+}
+

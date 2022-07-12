@@ -1,0 +1,51 @@
+nav {
+    background-color: transparent;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    height: 3.5rem;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+/* *{
+    background-color: black;
+} */
+
+.mylist {
+    background-color: black;
+    height: 100vh;
+    color: white;
+}
+
+/* .mylist-movie {
+    height: 100vh;
+} */
+
+.mylist-row {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 5rem;
+}
+
+.mylist-row-title {
+    margin-left: 43%;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+.mylist-row-card {
+    display: flex;
+    overflow-y: hidden ;
+    overflow-x: auto;
+    gap: 0.6rem;
+    padding: 0rem 1rem;
+}
+
+.mylist-row-card::-webkit-scrollbar{
+    display: none;
+}
+
